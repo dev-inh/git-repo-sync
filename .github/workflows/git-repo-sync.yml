@@ -14,6 +14,6 @@ jobs:
         fetch-depth: 0
     - uses: dev-inh/git-repo-sync@master
       with:
-        target-url: 'https://gitee.com/wangchucheng/git-repo-sync.git'
-        target-username: 'wangchucheng'
-        target-token: ${{ secrets.GITEE_ACCESS_TOKEN }}
+        target-url: 'https://gitlab.com/bluejedi/git-repo-sync.git'
+        target-username: 'bluejedi'
+        target-token: ${{ secrets.GITLAB_ACCESS_TOKEN }}
